@@ -1,1 +1,0 @@
-# AtmosHack2018
