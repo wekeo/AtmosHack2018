@@ -66,26 +66,24 @@ Copernicus AtmosHack is funded by the EU’s [Copernicus Programme](http://www.c
 
 ### Data Access <a name="bg"></a>
 
-Part of the products listed above are available in Object Storage, the remaining are available by direct access to the data origin.
-
-Object Storage:
+Products available in Object Storage can be accessed on the End Point
 
    End point http://atmoshack.obs.eu-de.otc.t-systems.com/ 
 
-   List all file of, for example, CAMS Air Pollution
-   #curl http://atmoshack.obs.eu-de.otc.t-systems.com/?prefix=06-CAMS-AirPollution
+   How to list all file of a product, as for example CAMS Air Pollution
+   *#curl http://atmoshack.obs.eu-de.otc.t-systems.com/?prefix=06-CAMS-AirPollution*
 
-   Download a file
-   #curl -O atmoshack.obs.eu-de.otc.t-systems.com/01-GOME_PMAP/M01-GOME/2017/01/M01-GOME-GOMPMA02-NA-2.0-201701003859.000000000Z-20170101022528-1293482-1.nc 
+   How to download a file
+   *#curl -O atmoshack.obs.eu-de.otc.t-systems.com/01-GOME_PMAP/M01-GOME/2017/01/M01-GOME-GOMPMA02-NA-2.0-201701003859.000000000Z-20170101022528-1293482-1.nc *
 
-Access the data with commonly used Object Storage tools:
+ALternatively the data can be accessed with commonly used Object Storage tools, using the access keys below (AK/SK):
 
-S3cm https://s3tools.org/s3cmd  
-S3FS https://linux.die.net/man/1/s3fs
-
-|  User Name | Access Key Id | Secret Access Key   | 
-| ------------ | ------------ | ------------ |
-| AtmosHack2018 | IXUCNIYQK5IXQ80TGTSA | SurkPQ2Z2xrBWxe9nye2Wfbyd3UVZ2ebVntT8ViN | 
+   S3cm https://s3tools.org/s3cmd  
+   S3FS https://linux.die.net/man/1/s3fs
+  
+   |  User Name | Access Key Id | Secret Access Key   | 
+   | ------------ | ------------ | ------------ |
+   | AtmosHack2018 | IXUCNIYQK5IXQ80TGTSA | SurkPQ2Z2xrBWxe9nye2Wfbyd3UVZ2ebVntT8ViN | 
 
 
 
