@@ -83,11 +83,8 @@ Access the data with commonly used Object Storage tools:
 S3cm https://s3tools.org/s3cmd  
 S3FS https://linux.die.net/man/1/s3fs
 
-|  Product | Source | Used for   | Geo Coverage  | Time Coverage   |  Resolution |  Format | HTTP Access  |
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+|  User Name | Access Key Id | Secret Access Key   | 
+| AtmosHack2018 | IXUCNIYQK5IXQ80TGTSA | SurkPQ2Z2xrBWxe9nye2Wfbyd3UVZ2ebVntT8ViN | 
 
-
-|  User Name | Access Key Id | Secret Access Key   |
-|  AtmosHack2018 | IXUCNIYQK5IXQ80TGTSA | SurkPQ2Z2xrBWxe9nye2Wfbyd3UVZ2ebVntT8ViN |
 
 
