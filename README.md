@@ -58,9 +58,8 @@ Copernicus AtmosHack is funded by the EU’s [Copernicus Programme](http://www.c
 
 ### Data Access <a name="bg"></a>
 
-Object Storage End Point
-
-http://atmoshack.obs.eu-de.otc.t-systems.com/ 
+##Object Storage ##
+End Point http://atmoshack.obs.eu-de.otc.t-systems.com/ 
 
 How to list all product, for example, of CAMS Air Pollution
 
@@ -78,6 +77,48 @@ S3FS https://linux.die.net/man/1/s3fs
 |  User Name | Access Key Id | Secret Access Key   | 
 | ------------ | ------------ | ------------ |
 | AtmosHack2018 | IXUCNIYQK5IXQ80TGTSA | SurkPQ2Z2xrBWxe9nye2Wfbyd3UVZ2ebVntT8ViN | 
+
+## CAMS Data ##
+
+Access CAMS data via the ECMWF MARS archive - Web-API
+
+Retrieve ECMWF key
+
+•Self-register at http://apps.ecmwf.int/registration
+•Login at https://apps.ecmwf.int/auth/login
+•Retrieve your API key at https://api.ecmwf.int/v1/key/
+•Specify the ECMWFDataServer with your url, key and email information
+
+Install the ecmwfapi python library
+
+•pip install https://software.ecmwf.int/wiki/download/attachments/56664858/ecmwf-api-client-python.tgz
+
+If you cannot run the pip commands, just download the ecmwf-api-client-python.tgz library. Extract its content and copy the module ecmwfapi to a directory pointed by the environment variable PYTHONPATH
+
+Execute a MARS request and download data either as GRIB or netCDF
+
+NOTE: per default, ECMWF data are on a gaussian grid with longitudes going from 0 to 360 degrees. It can be reprojected to a regular geographic latitude-longitude grid. If a reprojection is wished, the key 'grid' with the respective latitude and longitude resolution has to be specified. The same applies for specifying a longitude range of -180 to 180. The key area can be set.
+
+*#!/usr/bin/env python
+from ecmwfapi import ECMWFDataServer
+server = ECMWFDataServer(url="https://api.ecmwf.int/v1", key="1aa4666437d4e32d0c1d8a2c560a0639", email="julia.wagemann@ecmwf.int")
+
+# Retrieve data in netCDF format
+server.retrieve({
+        'stream': "oper",
+        'levtype': "sfc",
+        'param': "167",
+        'dataset': "interim",
+        'step': "0",
+        'grid': "0.5/0.5",
+        'area': "90/-180/-90/179.5",
+        'time': "00/06/12/18",
+        'date': "2014-07-01/to/2014-07-31",
+        'type': "an",
+        'class': "ei",
+        'format': "netcdf",
+        'target': "test.nc"
+    })*
 
 ### Useful Links
 
