@@ -13,6 +13,7 @@ https://www.eumetsat.int/website/home/News/ConferencesandEvents/DAT_4070861.html
 4. [Solution Domains](#solution)
 5. [Background](#bg)
 6. [Data Access](#Data)
+7. [Visualizaing Data](#Visualizing)
 
 # Challenge: Hack the Atmosphere!
 Urban air pollution poses a significant threat to human health and the quality of life of millions of people worldwide. Nine out of ten people are estimated to breathe air containing high levels of pollutants, causing around 7 million deaths every year. More than 90% of air pollution-related deaths occur in the developing world. Many of these areas have no surface air-quality monitoring networks and rely mainly on modelling and satellite information. Besides air pollution, there are other aspects of atmospheric composition that can affect health: UV radiation, which strongly depends on the stratospheric ozone layer, is another example.
@@ -76,7 +77,7 @@ Products available in Object Storage can be accessed on the End Point
    How to download a file
    *#curl -O atmoshack.obs.eu-de.otc.t-systems.com/01-GOME_PMAP/M01-GOME/2017/01/M01-GOME-GOMPMA02-NA-2.0-201701003859.000000000Z-20170101022528-1293482-1.nc *
 
-ALternatively the data can be accessed with commonly used Object Storage tools, using the access keys below (AK/SK):
+Alternatively the data can be accessed with commonly used Object Storage tools, using the access keys below (AK/SK):
 
    S3cm https://s3tools.org/s3cmd  
    S3FS https://linux.die.net/man/1/s3fs
@@ -85,5 +86,7 @@ ALternatively the data can be accessed with commonly used Object Storage tools, 
    | ------------ | ------------ | ------------ |
    | AtmosHack2018 | IXUCNIYQK5IXQ80TGTSA | SurkPQ2Z2xrBWxe9nye2Wfbyd3UVZ2ebVntT8ViN | 
 
+### Visualizing Data
 
+[How to Visualize NetCDF data](https://www.youtube.com/watch?v=XqoetylQAIY)
 
