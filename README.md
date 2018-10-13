@@ -12,6 +12,7 @@ https://www.eumetsat.int/website/home/News/ConferencesandEvents/DAT_4070861.html
 3. [Platform offering](#Platform)
 4. [Solution Domains](#solution)
 5. [Background](#bg)
+6. [Data Access](#Data)
 
 # Challenge: Hack the Atmosphere!
 Urban air pollution poses a significant threat to human health and the quality of life of millions of people worldwide. Nine out of ten people are estimated to breathe air containing high levels of pollutants, causing around 7 million deaths every year. More than 90% of air pollution-related deaths occur in the developing world. Many of these areas have no surface air-quality monitoring networks and rely mainly on modelling and satellite information. Besides air pollution, there are other aspects of atmospheric composition that can affect health: UV radiation, which strongly depends on the stratospheric ozone layer, is another example.
@@ -81,6 +82,10 @@ Access the data with commonly used Object Storage tools:
 
 S3cm https://s3tools.org/s3cmd  
 S3FS https://linux.die.net/man/1/s3fs
+
+|  Product | Source | Used for   | Geo Coverage  | Time Coverage   |  Resolution |  Format | HTTP Access  |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+
 
 |  User Name | Access Key Id | Secret Access Key   |
 |  AtmosHack2018 | IXUCNIYQK5IXQ80TGTSA | SurkPQ2Z2xrBWxe9nye2Wfbyd3UVZ2ebVntT8ViN |
