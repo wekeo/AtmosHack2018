@@ -13,7 +13,7 @@ https://www.eumetsat.int/website/home/News/ConferencesandEvents/DAT_4070861.html
 4. [Solution Domains](#solution)
 5. [Background](#bg)
 6. [Data Access](#Data)
-7. [Visualizaing Data](#Visualizing)
+7. [Useful Links](#Useful)
 
 # Challenge: Hack the Atmosphere!
 Urban air pollution poses a significant threat to human health and the quality of life of millions of people worldwide. Nine out of ten people are estimated to breathe air containing high levels of pollutants, causing around 7 million deaths every year. More than 90% of air pollution-related deaths occur in the developing world. Many of these areas have no surface air-quality monitoring networks and rely mainly on modelling and satellite information. Besides air pollution, there are other aspects of atmospheric composition that can affect health: UV radiation, which strongly depends on the stratospheric ozone layer, is another example.
@@ -58,11 +58,11 @@ Copernicus AtmosHack is funded by the EU’s [Copernicus Programme](http://www.c
 
 ### Data Access <a name="bg"></a>
 
-Products available in Object Storage can be accessed on the End Point
+Object Storage End Point
 
-End point http://atmoshack.obs.eu-de.otc.t-systems.com/ 
+http://atmoshack.obs.eu-de.otc.t-systems.com/ 
 
-How to list all file of a product, as for example CAMS Air Pollution
+How to list all product, for example, of CAMS Air Pollution
 *curl http://atmoshack.obs.eu-de.otc.t-systems.com/?prefix=06-CAMS-AirPollution
 
 How to download a file
@@ -77,7 +77,8 @@ S3FS https://linux.die.net/man/1/s3fs
 | ------------ | ------------ | ------------ |
 | AtmosHack2018 | IXUCNIYQK5IXQ80TGTSA | SurkPQ2Z2xrBWxe9nye2Wfbyd3UVZ2ebVntT8ViN | 
 
-### Visualizing Data
+### Useful Links
 
+Visualizing Data
 [How to Visualize NetCDF data - YouTube Video](https://www.youtube.com/watch?v=XqoetylQAIY)
 
