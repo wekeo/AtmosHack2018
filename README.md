@@ -9,7 +9,7 @@ https://www.eumetsat.int/website/home/News/ConferencesandEvents/DAT_4070861.html
  # Table of contents
 1. [Challenge](#challenge)
 2. [Dataset offering](#datasets)  
-3. [Platform Offering](#Platform Offering)
+3. [Platform offering](#Platform Offering)
 4. [Solution Domains](#solution)
 5. [Background](#bg)
 
