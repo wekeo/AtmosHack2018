@@ -9,7 +9,7 @@ https://www.eumetsat.int/website/home/News/ConferencesandEvents/DAT_4070861.html
  # Table of contents
 1. [Challenge](#challenge)
 2. [Dataset offering](#datasets)  
-@ -11,8 +13,6 @@ https://www.eumetsat.int/website/home/News/ConferencesandEvents/DAT_4070861.html
+3. [Platform Offering](#Platform Offering)
 4. [Solution Domains](#solution)
 5. [Background](#bg)
 
@@ -60,6 +60,5 @@ You will be offered VM access by participating on the AtmosHack2018 [here](https
 * Cleantech for industries, factories and agriculture
 * Smart city solutions
 
--### Background
 ### Background <a name="bg"></a>
 Copernicus AtmosHack is funded by the EU’s [Copernicus Programme](http://www.copernicus.eu/) and has been organised through a partnership of [EUMETSAT](https://www.eumetsat.int/website/home/index.html), the [Copernicus Atmosphere Monitoring Service (CAMS)](https://atmosphere.copernicus.eu/), the [Finnish Meteorological Service (FMI)](https://en.ilmatieteenlaitos.fi/), and the [University of Helsinki](https://www.inar.helsinki.fi/).
