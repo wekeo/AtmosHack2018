@@ -48,7 +48,7 @@ An overview of the complete set of datasets available for this event is listed b
 |Global UV forecasts | CAMS | UV index | Global | 2003-present. NRT from 2016 June onwards, Reanalysis from 2003 to 2016 |~40km	| NetCDF |<a href="https://atmosphere.copernicus.eu/" target="_blank">CAMS</a>|
 |Global fire emissions | CAMS |	Wildland fire emission estimates | Global |	2003-present | ~10km | NetCDF | <a href="https://atmosphere.copernicus.eu/" target="_blank">CAMS</a>|
 
-### Platform offering <a name="platform"></a>
+### Platform offering 
 WEkEO platform [wekeo.eu](https://www.wekeo.eu/) provides access to Copernicus datasets and cloud based processing resources. Get to know the capabilities of WEkEO from [here](https://www.wekeo.eu)
 
 You will be offered VM access by participating on the AtmosHack2018 [here](https://www.wekeo.eu/advanced_user)
