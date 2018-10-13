@@ -58,15 +58,15 @@ Copernicus AtmosHack is funded by the EU’s [Copernicus Programme](http://www.c
 
 ### Data Access <a name="bg"></a>
 
-Object Storage End Point
+**Object Storage End Point**
 
 http://atmoshack.obs.eu-de.otc.t-systems.com/ 
 
 How to list all product, for example, of CAMS Air Pollution
-*curl http://atmoshack.obs.eu-de.otc.t-systems.com/?prefix=06-CAMS-AirPollution
+*curl http://atmoshack.obs.eu-de.otc.t-systems.com/?prefix=06-CAMS-AirPollution*
 
 How to download a file
-*#curl -O atmoshack.obs.eu-de.otc.t-systems.com/01-GOME_PMAP/M01-GOME/2017/01/M01-GOME-GOMPMA02-NA-2.0-201701003859.000000000Z-20170101022528-1293482-1.nc
+*curl -O atmoshack.obs.eu-de.otc.t-systems.com/01-GOME_PMAP/M01-GOME/2017/01/M01-GOME-GOMPMA02-NA-2.0-201701003859.000000000Z-20170101022528-1293482-1.nc*
 
 Alternatively the data can be accessed with commonly used Object Storage tools, using the access keys below (AK/SK):
 
