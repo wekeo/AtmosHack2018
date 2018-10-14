@@ -117,29 +117,17 @@ server = ECMWFDataServer(url="https://api.ecmwf.int/v1", key="...", email="...@.
 server.retrieve({
        'stream': "oper",
        'levtype': "sfc",
-
        'param': "167",
-
        'dataset': "interim",
-
        'step': "0",
-
        'grid': "0.5/0.5",
-
        'area': "90/-180/-90/179.5",
-
        'time': "00/06/12/18",
-
        'date': "2014-07-01/to/2014-07-31",
-
        'type': "an",
-
        'class': "ei",
-
        'format': "netcdf",
-
        'target': "test.nc"
-  
         })
    ```
 
