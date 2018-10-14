@@ -63,11 +63,15 @@ End Point http://atmoshack.obs.eu-de.otc.t-systems.com/
 
 **list** all product, for example, of CAMS Air Pollution
 
-*curl http://atmoshack.obs.eu-de.otc.t-systems.com/?prefix=06-CAMS-AirPollution*
+```sh 
+curl http://atmoshack.obs.eu-de.otc.t-systems.com/?prefix=06-CAMS-AirPollution
+```
 
 **download** a file
 
-*curl -O atmoshack.obs.eu-de.otc.t-systems.com/01-GOME_PMAP/M01-GOME/2017/01/M01-GOME-GOMPMA02-NA-2.0-201701003859.000000000Z-20170101022528-1293482-1.nc*
+```sh 
+curl -O atmoshack.obs.eu-de.otc.t-systems.com/01-GOME_PMAP/M01-GOME/2017/01/M01-GOME-GOMPMA02-NA-2.0-201701003859.000000000Z-20170101022528-1293482-1.nc
+```
 
 Alternatively the data can be accessed with commonly used Object Storage tools, using the access keys below (AK/SK):
 
@@ -93,9 +97,9 @@ Retrieve ECMWF key
 • Specify the ECMWFDataServer with your url, key and email information
 
 Install the ecmwfapi python library
-
-*pip install https://software.ecmwf.int/wiki/download/attachments/56664858/ecmwf-api-client-python.tgz*
-
+```sh 
+pip install https://software.ecmwf.int/wiki/download/attachments/56664858/ecmwf-api-client-python.tgz
+```
 If you cannot run the pip commands, just download the ecmwf-api-client-python.tgz library. Extract its content and copy the module ecmwfapi to a directory pointed by the environment variable PYTHONPATH
 
 Execute a MARS request and download data either as GRIB or netCDF
@@ -108,12 +112,10 @@ NOTE: per default, ECMWF data are on a gaussian grid with longitudes going from 
 
 from ecmwfapi import ECMWFDataServer
 
-server = ECMWFDataServer(url="https://api.ecmwf.int/v1", key="1aa4666437d4e32d0c1d8a2c560a0639", email="julia.wagemann@ecmwf.int")
+server = ECMWFDataServer(url="https://api.ecmwf.int/v1", key="...", email="...@...")
 
 server.retrieve({
-
        'stream': "oper",
-
        'levtype': "sfc",
 
        'param': "167",
