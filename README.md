@@ -103,7 +103,8 @@ Execute a MARS request and download data either as GRIB or netCDF
 NOTE: per default, ECMWF data are on a gaussian grid with longitudes going from 0 to 360 degrees. It can be reprojected to a regular geographic latitude-longitude grid. If a reprojection is wished, the key 'grid' with the respective latitude and longitude resolution has to be specified. The same applies for specifying a longitude range of -180 to 180. The key area can be set.
 
 
-color.Println(color.WhiteBg(" #!/usr/bin/env python "))
+```sh 
+#!/usr/bin/env python 
 
 from ecmwfapi import ECMWFDataServer
 
@@ -111,34 +112,34 @@ server = ECMWFDataServer(url="https://api.ecmwf.int/v1", key="1aa4666437d4e32d0c
 
 server.retrieve({
 
- 'stream': "oper",
+       'stream': "oper",
 
- 'levtype': "sfc",
+       'levtype': "sfc",
 
- 'param': "167",
+       'param': "167",
 
- 'dataset': "interim",
+       'dataset': "interim",
 
- 'step': "0",
+       'step': "0",
 
- 'grid': "0.5/0.5",
+       'grid': "0.5/0.5",
 
- 'area': "90/-180/-90/179.5",
+       'area': "90/-180/-90/179.5",
 
- 'time': "00/06/12/18",
+       'time': "00/06/12/18",
 
- 'date': "2014-07-01/to/2014-07-31",
+       'date': "2014-07-01/to/2014-07-31",
 
- 'type': "an",
+       'type': "an",
 
- 'class': "ei",
+       'class': "ei",
 
- 'format': "netcdf",
+       'format': "netcdf",
 
- 'target': "test.nc"
+       'target': "test.nc"
   
-   })
-
+        })
+   ```
 
 ### Useful Links
 
