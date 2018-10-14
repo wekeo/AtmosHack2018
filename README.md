@@ -136,12 +136,21 @@ server.retrieve({
 [How to Visualize NetCDF data - YouTube Video](https://www.youtube.com/watch?v=XqoetylQAIY)
 
 CODA: https://coda.eumetsat.int/ 
+
 CAMS: https://atmosphere.copernicus.eu/
+
 Example notebook: https://gist.github.com/erget/467dba7082d31d73b20f3b5e90e740af
+
 GDAL: http://www.gdal.org/
+
 Jupyter: https://jupyter.org/
+
 Scipy stack, including matplotlib and numpy: https://www.scipy.org/
+
 Info on netCDF tool: https://www.unidata.ucar.edu/software/netcdf/
+
 QGIS: https://www.qgis.org/en/site/
+
 Xarray: http://xarray.pydata.org/en/stable/
+
 Scitools: https://scitools.org.uk/
