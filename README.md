@@ -135,8 +135,6 @@ server.retrieve({
 
 [How to Visualize NetCDF data - YouTube Video](https://www.youtube.com/watch?v=XqoetylQAIY)
 
-CODA: https://coda.eumetsat.int/ 
-
 CAMS: https://atmosphere.copernicus.eu/
 
 Example notebook: https://gist.github.com/erget/467dba7082d31d73b20f3b5e90e740af
