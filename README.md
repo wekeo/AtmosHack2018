@@ -12,13 +12,13 @@ https://www.eumetsat.int/website/home/News/ConferencesandEvents/DAT_4070861.html
  # Table of contents
 1. [Challenge](#challenge)
 2. [Dataset offering](#datasets)  
-3. [Platform offering](#Platform)
+3. [Platform offering](#platform)
 4. [Solution Domains](#solution)
 5. [Background](#bg)
-6. [Data Access](#Data)
-7. [Useful Links](#Useful)
+6. [Data Access](#data)
+7. [Useful Links](#useful)
 
-# Challenge: Hack the Atmosphere!
+# Challenge: Hack the Atmosphere! <a name="challenge"></a>
 Urban air pollution poses a significant threat to human health and the quality of life of millions of people worldwide. Nine out of ten people are estimated to breathe air containing high levels of pollutants, causing around 7 million deaths every year. More than 90% of air pollution-related deaths occur in the developing world. Many of these areas have no surface air-quality monitoring networks and rely mainly on modelling and satellite information. Besides air pollution, there are other aspects of atmospheric composition that can affect health: UV radiation, which strongly depends on the stratospheric ozone layer, is another example.
 Urban air pollution poses a significant threat to human health and the quality of life of millions of people worldwide. Nine out of ten people are estimated to breathe air containing high levels of pollutants, causing around 7 million deaths every year. More than 90% of air pollution-related deaths occur in the developing world. Many of these areas have no surface air-quality monitoring networks and rely mainly on modelling and satellite information. 
 
@@ -26,7 +26,7 @@ Your challenge is to create solutions that help people in their daily lives to r
 
 Various approaches are welcome: Create new solutions or add atmosphere-smart features to existing solutions. Propose innovative data visualisations for academic purposes or for raising awareness around the atmospheric environment. Mobile, web apps, platforms or hardware - it’s your call how to improve the quality of life for many!
 
-### Dataset offering
+### Dataset offering <a name="datasets"></a>
 An overview of the complete set of datasets available for this event is listed below
 
 |  Product | Source | Used for   | Geo Coverage  | Time Coverage   |  Resolution |  Format | HTTP Access  |
@@ -43,12 +43,12 @@ An overview of the complete set of datasets available for this event is listed b
 |Global UV forecasts | CAMS | UV index | Global | 2003-present. NRT from 2016 June onwards, Reanalysis from 2003 to 2016 |~40km	| NetCDF | [CAMS](https://atmosphere.copernicus.eu/) |
 |Global fire emissions | CAMS |	Wildland fire emission estimates | Global |	2003-present | ~10km | NetCDF | [CAMS](https://atmosphere.copernicus.eu/) |
 
-### Platform offering 
+### Platform offering <a name="platform"></a>
 WEkEO platform [wekeo.eu](https://www.wekeo.eu/) provides access to Copernicus datasets and cloud based processing resources. Get to know the capabilities of WEkEO from [here](https://www.wekeo.eu)
 
 You will be offered VM access by participating on the AtmosHack2018 [here](https://www.wekeo.eu/advanced_user)
 
-### Solution domains 
+### Solution domains <a name="solution"></a>
 * Air-quality apps
 * Traffic and navigation
 * Geological: volcanic eruptions, dust and smoke in the atmosphere
@@ -58,7 +58,7 @@ You will be offered VM access by participating on the AtmosHack2018 [here](https
 ### Background <a name="bg"></a>
 Copernicus AtmosHack is funded by the EU’s [Copernicus Programme](http://www.copernicus.eu/) and has been organised through a partnership of [EUMETSAT](https://www.eumetsat.int/website/home/index.html), the [Copernicus Atmosphere Monitoring Service (CAMS)](https://atmosphere.copernicus.eu/), the [Finnish Meteorological Service (FMI)](https://en.ilmatieteenlaitos.fi/), and the [University of Helsinki](https://www.inar.helsinki.fi/).
 
-### Data Access <a name="bg"></a>
+### Data Access <a name="data"></a>
 
 **Object Storage**
 End Point http://atmoshack.obs.eu-de.otc.t-systems.com/ 
@@ -77,7 +77,7 @@ curl -O atmoshack.obs.eu-de.otc.t-systems.com/01-GOME_PMAP/M01-GOME/2017/01/M01-
 
 Alternatively the data can be accessed with commonly used Object Storage tools, using the access keys below (AK/SK):
 
-S3cm https://s3tools.org/s3cmd  
+S3cmd https://s3tools.org/s3cmd  
 S3FS https://linux.die.net/man/1/s3fs
   
 |  User Name | Access Key Id | Secret Access Key   | 
@@ -133,7 +133,7 @@ server.retrieve({
         })
    ```
 
-### Useful Links
+### Useful Links <a name="useful"></a>
 
 [How to Visualize NetCDF data - YouTube Video](https://www.youtube.com/watch?v=XqoetylQAIY)
 
