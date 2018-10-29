@@ -3,7 +3,8 @@ Join EUMETSAT, ECMWF, FMI and University of Helsinki scientists for a weekend ha
 
 This Github repository contains the resources for Copernicus Hackathon 2018 in Helsinki, it can be used to share code. More info at
 
-https://ultrahack.org/atmoshack2018
+https://ultrahack.org/atmoshack2018 
+
 https://www.eumetsat.int/website/home/News/ConferencesandEvents/DAT_4070861.html?lang=EN
 
 ![EventBanner](https://github.com/WEkEO/AtmosHack2018/blob/master/01-images/Atmoshack2018-banner.jpg)
