@@ -34,19 +34,13 @@ cd s3cmd-2.0.2
 sudo python setup.py install
 ```
 2. Configure s3cmd to access object store `s3cmd --configure`
-Use the following values for the various options:
-
-AK : see above
-
-SK : see above
-
-Region : `eu-de`
-
-S3 endpoint : `obs.eu-de.otc.t-systems.com`
-
-DNS-Style bucket+hostname: `%(bucket)s.obs.eu-de.otc.t-systems.com`
-
-Enter n to quit verifying the access key
+Use the following values for the various options: <br/>
+  AK : see above <br/>
+  SK : see above <br/>
+  Region : `eu-de` <br/>
+  S3 endpoint : `obs.eu-de.otc.t-systems.com` <br/>
+  DNS-Style bucket+hostname: `%(bucket)s.obs.eu-de.otc.t-systems.com` <br/>
+  Enter `n` to quit verifying the access key <br/>
 
 3. Save the configuration in the last step. After the current configuration is saved, S3cmd will automatically generate file .s3cfg under directory $HOME. The file includes all configuration information about S3cmd.
 4. Open the s3cmd config file `vi ~/.s3cfg`
