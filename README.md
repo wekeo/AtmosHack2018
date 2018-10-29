@@ -27,7 +27,6 @@ Your challenge is to create solutions that help people in their daily lives to r
 Various approaches are welcome: Create new solutions or add atmosphere-smart features to existing solutions. Propose innovative data visualisations for academic purposes or for raising awareness around the atmospheric environment. Mobile, web apps, platforms or hardware - it’s your call how to improve the quality of life for many!
 
 ### Dataset offering
-An overview of the complete set of datasets available for this event is listed in [this](https://nbviewer.jupyter.org/github/rakesh-p/Atmoshack2018/blob/master/02-jupyter/intro.ipynb) Jupyter Notebook 
 An overview of the complete set of datasets available for this event is listed below
 
 |  Product | Source | Used for   | Geo Coverage  | Time Coverage   |  Resolution |  Format | HTTP Access  |
