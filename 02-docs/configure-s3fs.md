@@ -40,18 +40,18 @@ AK : see above
 
 SK : see above
 
-Region : eu-de
+Region : `eu-de`
 
-S3 endpoint : obs.eu-de.otc.t-systems.com
+S3 endpoint : `obs.eu-de.otc.t-systems.com`
 
-DNS-Style bucket+hostname: %(bucket)s.obs.eu-de.otc.t-systems.com
+DNS-Style bucket+hostname: `%(bucket)s.obs.eu-de.otc.t-systems.com`
 
 Enter n to quit verifying the access key
 
 3. Save the configuration in the last step. After the current configuration is saved, S3cmd will automatically generate file .s3cfg under directory $HOME. The file includes all configuration information about S3cmd.
 4. Open the s3cmd config file `vi ~/.s3cfg`
 5. Locate parameter website_endpoint at the end of the .s3cfg configuration file, and change the value as follows
-website_endpoint = http://%(bucket)s.obs-website.%(location)s.otc.t-systems.com
+`website_endpoint = http://%(bucket)s.obs-website.%(location)s.otc.t-systems.com`
 6. Save the config file
 7. Test the configuration: `s3cmd ls`
 
