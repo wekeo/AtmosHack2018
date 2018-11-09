@@ -43,6 +43,9 @@ An overview of the complete set of datasets available for this event is listed b
 |Global ozone (Metop GOME-2 instrument)| EUMETSAT/DLR |	Ozone O3, nitrogen dioxide NO2 and sulphur dioxide SO2 | Global | Daily | - | WMS |[Latest](https://geoservice.dlr.de/web/maps/metop:gome2.tc.latest), [Daily](https://geoservice.dlr.de/web/maps/metop:gome2.tc.daily)|
 |Global UV forecasts | CAMS | UV index | Global | 2003-present. NRT from 2016 June onwards, Reanalysis from 2003 to 2016 |~40km	| NetCDF | [CAMS](https://atmosphere.copernicus.eu/) |
 |Global fire emissions | CAMS |	Wildland fire emission estimates | Global |	2003-present | ~10km | NetCDF | [CAMS](https://atmosphere.copernicus.eu/) |
+|Air Quality stations | European Environmental Agency | NO2, O3, PM10, PM2.5, CO - additional depending on countries | Europe |       2013-present | in-situ | CSV | [EEA Airbase website](http://discomap.eea.europa.eu/map/fme/AirQualityExport.htm) |
+|Sentinel_5p Monthly maps | Temis Service | NO2 | Global |  02/2018-present | 0,125 degrees | ascii | [Temis KNMI website](http://temis.nl/airpollution/no2col/no2month_tropomi.php) |
+
 
 ### Platform offering <a name="platform"></a>
 WEkEO platform [wekeo.eu](https://www.wekeo.eu/) provides access to Copernicus datasets and cloud based processing resources. Get to know the capabilities of WEkEO from [here](https://www.wekeo.eu)
